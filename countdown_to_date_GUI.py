@@ -10,10 +10,10 @@ def countdown_window(target_date):
         [sg.Button('Exit')]
     ]
 
-    window = sg.Window("Countdown", layout, background_color="Black")
+    timer = sg.Window("Countdown", layout, background_color="Black")
 
     while True:
-        event, _ = window.read(timeout=1000)   #update every second
+        event, _ = timer.read(timeout=1000)   #update every second
 
         if event == sg.WIN_CLOSED or event == "Exit":
             break
@@ -21,11 +21,11 @@ def countdown_window(target_date):
         time_left = target_date - datetime.datetime.today()
 
         if time_left.total_seconds() <= 0:
-            window["-TIME-"].update("Time's Up!")
+            timer["-TIME-"].update("Time's Up!")
         else:
-            window["-TIME-"].update(str(time_left).split('.')[0])   # remove milliseconds
+            timer["-TIME-"].update(str(time_left).split('.')[0])   # remove milliseconds
 
-    window.close()
+    timer.close()
 
 def get_valid_date():
     while True:
