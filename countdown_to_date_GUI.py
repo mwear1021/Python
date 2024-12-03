@@ -27,12 +27,21 @@ def countdown_window(target_date):
 
     window.close()
 
-if __name__ == '__main__':
-    year = int(input("Enter target year: "))
-    month = int(input("Enter target month: "))
-    day = int(input("Enter target day: "))
-    hour = int(input("Enter target hour: "))
-    minute = int(input("Enter target minute: "))
+def get_valid_date():
+    while True:
+        try:
+            year = int(input("Enter target year: "))
+            month = int(input("Enter target month: "))
+            day = int(input("Enter target day: "))
+            hour = int(input("Enter target hour: "))
+            minute = int(input("Enter target minute: "))
+            
+            return datetime.datetime(year, month, day, hour, minute)
+        except ValueError:
+            print('Invalid input! Please enter valid numeric values for date/time.')
+        except Exception as e:
+            print("An unexpected error occurred:", str(e))
 
-    target_date = datetime.datetime(year, month, day, hour, minute)
+if __name__ == '__main__':
+    target_date = get_valid_date()
     countdown_window(target_date)
