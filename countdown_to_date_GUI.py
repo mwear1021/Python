@@ -1,8 +1,8 @@
 import datetime
 import PySimpleGUI as sg
 
-def countdown_window(target_date):
-    '''creates the countdown window'''
+def countdown_window(some_date):
+    """creates the countdown window"""
 
     layout = [
         [sg.Text('Countdown to target date: ', font=('Helvetica', 20), text_color='White', background_color="Black")],
@@ -18,7 +18,7 @@ def countdown_window(target_date):
         if event == sg.WIN_CLOSED or event == "Exit":
             break
 
-        time_left = target_date - datetime.datetime.today()
+        time_left = some_date - datetime.datetime.today()
 
         if time_left.total_seconds() <= 0:
             timer["-TIME-"].update("Time's Up!")
