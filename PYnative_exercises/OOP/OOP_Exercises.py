@@ -82,3 +82,39 @@ given: Create a Bus child class that inherits from the Vehicle class. The defaul
 # bus1 = Bus("School Volvo", 12, 50)
 # print(f"Total bus fare is {bus1.fare()}") #output: Total bus fare is 5500.0
 
+"""
+OOP EX 7: Write a program to determine which class a given Bus object belongs to.
+"""
+
+# class Vehicle:
+#     def __init__(self, name, mileage, capacity):
+#         self.name = name
+#         self.mileage = mileage
+#         self.capacity = capacity
+    
+#     def get_class(self):
+#         return type(self)
+
+
+# class Bus(Vehicle):
+#     pass
+
+# School_bus = Bus("School Volvo", 12, 50)
+# print(Vehicle.get_class(School_bus))
+
+"""
+OOP EX 8: Determine if School_bus is also an instance of the Vehicle class
+"""
+
+# class Vehicle:
+#     def __init__(self, name, mileage, capacity):
+#         self.name = name
+#         self.mileage = mileage
+#         self.capacity = capacity
+
+# class Bus(Vehicle):
+#     pass
+
+# School_bus = Bus("School Volvo", 12, 50)
+
+# print(isinstance(School_bus, Vehicle))  # True
