@@ -4,13 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7550500f-2de8-444f-b8c3-613f842d8e11" name="Changes" comment="Object-oriented calculator - initial commit">
-      <change afterPath="$PROJECT_DIR$/.idea/Python.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataclass_shapes.py" afterDir="false" />
+    <list default="true" id="7550500f-2de8-444f-b8c3-613f842d8e11" name="Changes" comment="OOP shapes program using dataclass decorators">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataclass_shapes.py" beforeDir="false" afterPath="$PROJECT_DIR$/dataclass_shapes.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -155,7 +151,31 @@
       <option name="project" value="LOCAL" />
       <updated>1734201831183</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="settings">
+      <option name="closed" value="true" />
+      <created>1734209666594</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1734209666594</updated>
+    </task>
+    <task id="LOCAL-00007" summary="settings">
+      <option name="closed" value="true" />
+      <created>1734209673069</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1734209673069</updated>
+    </task>
+    <task id="LOCAL-00008" summary="OOP shapes program using dataclass decorators">
+      <option name="closed" value="true" />
+      <created>1734209709713</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1734209709713</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -176,6 +196,8 @@
     <MESSAGE value="backend jetbrains stuff" />
     <MESSAGE value="OOP exercises" />
     <MESSAGE value="Object-oriented calculator - initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Object-oriented calculator - initial commit" />
+    <MESSAGE value="settings" />
+    <MESSAGE value="OOP shapes program using dataclass decorators" />
+    <option name="LAST_COMMIT_MESSAGE" value="OOP shapes program using dataclass decorators" />
   </component>
 </project>
