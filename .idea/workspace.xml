@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7550500f-2de8-444f-b8c3-613f842d8e11" name="Changes" comment="OOP shapes program using dataclass decorators">
+    <list default="true" id="7550500f-2de8-444f-b8c3-613f842d8e11" name="Changes" comment="added some comments explaining the math within triangle area function">
+      <change afterPath="$PROJECT_DIR$/w3resource_Py_exercises/pandas_exercises/pandas_exercise1.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataclass_shapes.py" beforeDir="false" afterPath="$PROJECT_DIR$/dataclass_shapes.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,6 +58,7 @@
     "Python.countdown_to_date_GUI.executor": "Run",
     "Python.dataclass_shapes.executor": "Run",
     "Python.oop_practice.executor": "Run",
+    "Python.sqlite1.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main",
@@ -175,7 +176,23 @@
       <option name="project" value="LOCAL" />
       <updated>1734209709713</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="added some comments explaining the math within triangle area function">
+      <option name="closed" value="true" />
+      <created>1734210228499</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1734210228499</updated>
+    </task>
+    <task id="LOCAL-00010" summary="added some comments explaining the math within triangle area function">
+      <option name="closed" value="true" />
+      <created>1734210241958</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1734210241958</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -198,6 +215,7 @@
     <MESSAGE value="Object-oriented calculator - initial commit" />
     <MESSAGE value="settings" />
     <MESSAGE value="OOP shapes program using dataclass decorators" />
-    <option name="LAST_COMMIT_MESSAGE" value="OOP shapes program using dataclass decorators" />
+    <MESSAGE value="added some comments explaining the math within triangle area function" />
+    <option name="LAST_COMMIT_MESSAGE" value="added some comments explaining the math within triangle area function" />
   </component>
 </project>
