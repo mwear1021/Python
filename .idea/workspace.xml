@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7550500f-2de8-444f-b8c3-613f842d8e11" name="Changes" comment="added some comments explaining the math within triangle area function">
-      <change afterPath="$PROJECT_DIR$/w3resource_Py_exercises/pandas_exercises/pandas_exercise1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-fiddle_exercises/count_vowels.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-fiddle_exercises/fibonacci.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -16,6 +17,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="HTML File" />
         <option value="Python Script" />
       </list>
     </option>
@@ -54,11 +56,14 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
     "Python.OOP_Calculator.executor": "Run",
+    "Python.count_vowels.executor": "Run",
     "Python.countdown_to_date_GUI.executor": "Run",
     "Python.dataclass_shapes.executor": "Run",
     "Python.oop_practice.executor": "Run",
     "Python.sqlite1.executor": "Run",
+    "Python.temp.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main",
@@ -67,34 +72,11 @@
     "settings.editor.selected.configurable": "inlay.hints"
   }
 }]]></component>
-  <component name="RunManager">
-    <configuration name="countdown_to_date_GUI" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Python" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/countdown_to_date_GUI.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Python.countdown_to_date_GUI" />
-      </list>
-    </recent_temporary>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\mwear\OneDrive\Desktop\Python\python-fiddle_exercises" />
+      <recent name="C:\Users\mwear\OneDrive\Desktop\Python\w3resource_Py_exercises" />
+    </key>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -217,5 +199,12 @@
     <MESSAGE value="OOP shapes program using dataclass decorators" />
     <MESSAGE value="added some comments explaining the math within triangle area function" />
     <option name="LAST_COMMIT_MESSAGE" value="added some comments explaining the math within triangle area function" />
+  </component>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <configuration name="PythonConfigurationType">
+        <watch expression="counted" language="Python" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>
