@@ -1,7 +1,7 @@
 """
 Shape Calculator Script
 This program allows the user to calculate the area and perimeter (or circumference)
-of various geometric shapes like circles, triangles, and squares.
+of various geometric shapes like circles, right triangles, and squares.
 """
 
 
@@ -31,7 +31,7 @@ class Circle(Shape):
         return f"Circumference: {2 * math.pi * self.radius:.2f} cm"
 
 @dataclass
-class Triangle(Shape):
+class RightTriangle(Shape):
     side_a : float
     side_b : float
 
@@ -93,7 +93,7 @@ def shape_loop():
                 # Get side lengths and create Triangle instance
                 get_side1 = float(input("\nEnter side A length in cm: "))
                 get_side2 = float(input("\nEnter side B length in cm: "))
-                shape = Triangle(get_side1, get_side2)
+                shape = RightTriangle(get_side1, get_side2)
                 print(shape.get_area())
                 print(shape.get_perimeter())
 
