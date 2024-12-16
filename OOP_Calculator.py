@@ -15,7 +15,7 @@ class Calculator:
 
     def divide(self):
         if self.num2 != 0:
-            return f"{self.num1} / {self.num2} = {self.num1 + self.num2}"
+            return f"{self.num1} / {self.num2} = {self.num1 / self.num2}"
         else:
             return "Cannot divide by zero"
 
