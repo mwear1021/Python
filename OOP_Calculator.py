@@ -26,7 +26,7 @@ class Calculator:
 def main():
     try:
         number1 = float(input("Enter the first number: "))
-        operator = input("Enter math operator (+, -, *, /, **): ")
+        operator = input("Enter math operator (+, -, *, /, **): ").strip()
         number2 = float(input("Enter the second number: "))
 
         operation = Calculator(number1, number2)
