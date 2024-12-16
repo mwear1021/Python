@@ -22,22 +22,30 @@ class Calculator:
     def exponent(self):
         return f"{self.num1} ^ {self.num2} = {self.num1 ** self.num2}"
 
-number1 = float(input("Enter the first number: "))
-operator = input("Enter math operator: ")
-number2 = float(input("Enter the second number: "))
+# main logic
+def main():
+    try:
+        number1 = float(input("Enter the first number: "))
+        operator = input("Enter math operator (+, -, *, /, **): ")
+        number2 = float(input("Enter the second number: "))
 
-operation = Calculator(number1, number2)
+        operation = Calculator(number1, number2)
 
-match operator:
-    case "+":
-        print(operation.add())
-    case "-":
-        print(operation.subtract())
-    case "*":
-        print(operation.multiply())
-    case "/":
-        print(operation.divide())
-    case "**":
-        print(operation.exponent())
-    case _:
-        print("Invalid operator")
+        match operator:
+            case "+":
+                print(operation.add())
+            case "-":
+                print(operation.subtract())
+            case "*":
+                print(operation.multiply())
+            case "/":
+                print(operation.divide())
+            case "**":
+                print(operation.exponent())
+            case _:
+                print("Invalid operator. Please use one of: +, -, *, /, **")
+    except ValueError:
+        print("Invalid input. Please enter numeric values.")
+
+if __name__ == "__main__":
+    main()
