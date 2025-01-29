@@ -24,28 +24,39 @@ class Calculator:
 
 # main logic
 def main():
-    try:
-        number1 = float(input("Enter the first number: "))
-        operator = input("Enter math operator (+, -, *, /, **): ").strip()
-        number2 = float(input("Enter the second number: "))
+    while True:    
+        try:
+            number1 = float(input("Enter the first number: "))
+            operator = input("Enter math operator (+, -, *, /, **): ").strip()
+            number2 = float(input("Enter the second number: "))
 
-        operation = Calculator(number1, number2)
+            operation = Calculator(number1, number2)
 
-        match operator:
-            case "+":
-                print(operation.add())
-            case "-":
-                print(operation.subtract())
-            case "*":
-                print(operation.multiply())
-            case "/":
-                print(operation.divide())
-            case "**":
-                print(operation.exponent())
-            case _:
-                print("Invalid operator. Please use one of: +, -, *, /, **")
-    except ValueError:
-        print("Invalid input. Please enter numeric values.")
+            match operator:
+                case "+":
+                    print(operation.add())
+                case "-":
+                    print(operation.subtract())
+                case "*":
+                    print(operation.multiply())
+                case "/":
+                    print(operation.divide())
+                case "**":
+                    print(operation.exponent())
+                case _:
+                    print("Invalid operator. Please use one of: +, -, *, /, **")
+        except ValueError:
+            print("Invalid input. Please enter numeric values.")
+
+        finally:
+            again = input("Do you want to do it again? 'y' or 'n': ").strip().lower()
+
+            match again:
+                case "y":
+                    continue
+                case "n":
+                    print("Exiting...")
+                    break
 
 if __name__ == "__main__":
     main()
