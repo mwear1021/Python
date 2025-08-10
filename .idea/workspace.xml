@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7550500f-2de8-444f-b8c3-613f842d8e11" name="Changes" comment="added some comments explaining the math within triangle area function">
-      <change afterPath="$PROJECT_DIR$/python-fiddle_exercises/count_vowels.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python-fiddle_exercises/fibonacci.py" afterDir="false" />
+    <list default="true" id="687ca1df-a73a-41cf-9400-015696302da1" name="Changes" comment="added error handling">
+      <change afterPath="$PROJECT_DIR$/fundamentals_review/string_reverse.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fundamentals_review/swap_two_vars.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qodana.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -17,7 +18,6 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="Python Script" />
       </list>
     </option>
@@ -37,16 +37,13 @@
     &quot;accountId&quot;: &quot;f58b2a0d-cf9b-4e08-b6fa-9fe7450ff03e&quot;
   }
 }</component>
-  <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/countdown_to_date_GUI.py" root0="FORCE_HIGHLIGHTING" />
-  </component>
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="CurrentFile" />
+    <option name="selectedTabId" value="QODANA_PROBLEMS_VIEW_TAB" />
   </component>
   <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 5
+  &quot;associatedIndex&quot;: 6
 }</component>
-  <component name="ProjectId" id="2qDUFMJmlvvFvpUATqesQt5sopV" />
+  <component name="ProjectId" id="2sAshr24oJ9vAF68o8klgLLYcYR" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
@@ -56,27 +53,61 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
     "Python.OOP_Calculator.executor": "Run",
-    "Python.count_vowels.executor": "Run",
-    "Python.countdown_to_date_GUI.executor": "Run",
     "Python.dataclass_shapes.executor": "Run",
-    "Python.oop_practice.executor": "Run",
-    "Python.sqlite1.executor": "Run",
-    "Python.temp.executor": "Run",
+    "Python.string_reverse.executor": "Run",
+    "Python.swap_two_vars.executor": "Debug",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/mwear/OneDrive/Desktop/Python",
-    "settings.editor.selected.configurable": "inlay.hints"
+    "ignore.virus.scanning.warn.message": "true"
   }
 }]]></component>
-  <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\mwear\OneDrive\Desktop\Python\python-fiddle_exercises" />
-      <recent name="C:\Users\mwear\OneDrive\Desktop\Python\w3resource_Py_exercises" />
-    </key>
+  <component name="QodanaHighlightedReportService">
+    <option name="localRunNotPublishedPersistedInfo">
+      <LocalReportPersistedInfo>
+        <option name="path" value="C:\Users\mwear\AppData\Local\Temp\qodana_output\qodana.sarif.json" />
+        <option name="reportGuid" value="7b2f7c5b-cb2e-4ee5-bde4-89e34ee75133" />
+        <option name="reportName" value="Python/qodana/2025-07-11" />
+      </LocalReportPersistedInfo>
+    </option>
+  </component>
+  <component name="QodanaIsSelectedPersistenceService">
+    <option name="selectedOrLoading" value="true" />
+  </component>
+  <component name="QodanaReportsService">
+    <option name="descriptions">
+      <ReportDescription localRun="true" path="C:\Users\mwear\AppData\Local\Temp\qodana_output\qodana.sarif.json" reportGuid="7b2f7c5b-cb2e-4ee5-bde4-89e34ee75133" reportId="Python/qodana/2025-07-11" />
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="dataclass_shapes" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Python" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dataclass_shapes.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.dataclass_shapes" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -87,124 +118,44 @@
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
-    <task active="true" id="Default" summary="Default task">
-      <changelist id="7550500f-2de8-444f-b8c3-613f842d8e11" name="Changes" comment="" />
-      <created>1734196534614</created>
-      <option name="number" value="Default" />
-      <option name="presentableId" value="Default" />
-      <updated>1734196534614</updated>
-    </task>
-    <task id="LOCAL-00001" summary="init commit">
+    <task id="LOCAL-00001" summary="had an error in the division  logic">
       <option name="closed" value="true" />
-      <created>1734196835983</created>
+      <created>1734320800302</created>
       <option name="number" value="00001" />
       <option name="presentableId" value="LOCAL-00001" />
       <option name="project" value="LOCAL" />
-      <updated>1734196835983</updated>
+      <updated>1734320800302</updated>
     </task>
-    <task id="LOCAL-00002" summary="changed parameter name for countdown window">
+    <task id="LOCAL-00002" summary="added error handling">
       <option name="closed" value="true" />
-      <created>1734201765285</created>
+      <created>1734321111511</created>
       <option name="number" value="00002" />
       <option name="presentableId" value="LOCAL-00002" />
       <option name="project" value="LOCAL" />
-      <updated>1734201765285</updated>
+      <updated>1734321111511</updated>
     </task>
-    <task id="LOCAL-00003" summary="backend jetbrains stuff">
+    <task id="LOCAL-00003" summary="added error handling">
       <option name="closed" value="true" />
-      <created>1734201791498</created>
+      <created>1734321152386</created>
       <option name="number" value="00003" />
       <option name="presentableId" value="LOCAL-00003" />
       <option name="project" value="LOCAL" />
-      <updated>1734201791498</updated>
+      <updated>1734321152386</updated>
     </task>
-    <task id="LOCAL-00004" summary="OOP exercises">
-      <option name="closed" value="true" />
-      <created>1734201809066</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1734201809066</updated>
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="687ca1df-a73a-41cf-9400-015696302da1" name="Changes" comment="added error handling" />
+      <created>1737909837397</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1737909837397</updated>
     </task>
-    <task id="LOCAL-00005" summary="Object-oriented calculator - initial commit">
-      <option name="closed" value="true" />
-      <created>1734201831183</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1734201831183</updated>
-    </task>
-    <task id="LOCAL-00006" summary="settings">
-      <option name="closed" value="true" />
-      <created>1734209666594</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1734209666594</updated>
-    </task>
-    <task id="LOCAL-00007" summary="settings">
-      <option name="closed" value="true" />
-      <created>1734209673069</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1734209673069</updated>
-    </task>
-    <task id="LOCAL-00008" summary="OOP shapes program using dataclass decorators">
-      <option name="closed" value="true" />
-      <created>1734209709713</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1734209709713</updated>
-    </task>
-    <task id="LOCAL-00009" summary="added some comments explaining the math within triangle area function">
-      <option name="closed" value="true" />
-      <created>1734210228499</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1734210228499</updated>
-    </task>
-    <task id="LOCAL-00010" summary="added some comments explaining the math within triangle area function">
-      <option name="closed" value="true" />
-      <created>1734210241958</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1734210241958</updated>
-    </task>
-    <option name="localTasksCounter" value="11" />
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
-  </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="np_ex1 commit" />
-    <MESSAGE value="init commit" />
-    <MESSAGE value="changed parameter name for countdown window" />
-    <MESSAGE value="backend jetbrains stuff" />
-    <MESSAGE value="OOP exercises" />
-    <MESSAGE value="Object-oriented calculator - initial commit" />
-    <MESSAGE value="settings" />
-    <MESSAGE value="OOP shapes program using dataclass decorators" />
-    <MESSAGE value="added some comments explaining the math within triangle area function" />
-    <option name="LAST_COMMIT_MESSAGE" value="added some comments explaining the math within triangle area function" />
-  </component>
-  <component name="XDebuggerManager">
-    <watches-manager>
-      <configuration name="PythonConfigurationType">
-        <watch expression="counted" language="Python" />
-      </configuration>
-    </watches-manager>
+    <MESSAGE value="specified 'Right' triangle for triangle dataclass" />
+    <MESSAGE value="had an error in the division  logic" />
+    <MESSAGE value="added error handling" />
+    <option name="LAST_COMMIT_MESSAGE" value="added error handling" />
   </component>
 </project>
