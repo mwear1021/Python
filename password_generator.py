@@ -8,7 +8,7 @@ length_of_password = int(input("Enter the length of the random password: "))    
 possible_chars = '' # create empty string
 possible_chars += string.ascii_letters  # add letters and capital letters
 possible_chars += string.digits # add numbers
-possible_chars+= string.punctuation # add symbols
+#possible_chars+= string.punctuation # add symbols
 
 new_password = ''
 for i in range(0, length_of_password):
