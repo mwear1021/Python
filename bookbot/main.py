@@ -1,3 +1,5 @@
+# This is the main entry point for the BookBot application. It reads a book from a specified file path, analyzes its content, and prints out statistics - word count and character count.
+
 from stats import count_words, character_count, sorted_dicts
 import sys
 
